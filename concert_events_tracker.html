@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Events Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Concert Events Tracker</h1>
+    <form id="eventForm">
+        <input type="text" id="eventName" placeholder="Event Name" required>
+        <input type="date" id="eventDate" required>
+        <input type="text" id="eventVenue" placeholder="Venue" required>
+        <input type="number" id="eventPrice" placeholder="Price" required>
+        <button type="submit">Add Event</button>
+    </form>
+    <table id="eventsTable">
+        <thead>
+            <tr>
+                <th>Event Name</th>
+                <th>Date</th>
+                <th>Venue</th>
+                <th>Price</th>
+                <th>Assistants</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Events will be added here -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
